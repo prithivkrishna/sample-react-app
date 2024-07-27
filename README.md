@@ -143,7 +143,7 @@ replace ``<your-registry>`` with docker registry
 
 ```yaml
 image:
-  repository: <your-registry>/front-end
+  repository: <your-registry>/payments-api
   pullPolicy: IfNotPresent
   tag: "v1.0.0"
 ```
