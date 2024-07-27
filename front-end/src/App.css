@@ -1,0 +1,53 @@
+.api-call {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.api-call__header {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.api-call__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.api-call__main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.api-call__message {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.api-call__message--success {
+    color: green;
+}
+
+.api-call__message--error {
+    color: red;
+}
+
+.api-call__footer {
+    background-color: lightgray;
+    padding: 20px 0px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.api-call__copyright {
+    margin: 0;
+    font-size: 14px;
+}
